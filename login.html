@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="login.css">
+  <title>EdTech</title>
+</head>
+<body>
+  <header class="form-header" id="form-header">
+    <h1>EdTech</h1>
+  </header>
+  
+  <main>
+    <div class="form-container">
+        <h3>Login to your account</h3>
+        <form action="" id="login-form" class="login-form" onsubmit="return validateForm(event)">
+          <label for="email">Email</label>
+          <input type="email" name="email" id="email" placeholder="Enter your email...">
+          <label for="password">Password</label>
+          <input type="password" name="password" id="password" placeholder="Enter your password...">
+          <input type="submit" value="login" id="submit">
+        </form>
+        
+        <footer>
+          <p>Don't have an account? <a href="./register.html">Register here</a></p><br>
+          <p>Forgot password? <a href="./recover_password.html">Recover password</a></p>
+        </footer>
+    </div>
+  </main>
+</body>
+</html>
